@@ -1,0 +1,36 @@
+/* layout */
+.header {
+  
+}
+.header-top {
+  padding: 0 25px;
+  display: flex;
+  flex:1;
+  flex-direction: row;
+}
+.header-logo {
+  flex:1;
+}
+.header-login {
+  display: flex;  
+  flex:1;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.login-box {
+  display: flex;
+  flex-direction: row;
+}
+.login-input {
+  padding: 10px 5px;  
+  
+}
+.login-btn {
+  flex: 1;
+  color:white;
+  background-color: black;
+  padding: 10px 15px;  
+}

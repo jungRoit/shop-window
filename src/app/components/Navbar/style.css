@@ -21,6 +21,7 @@
 }
 
 .nav-item {
+  font-size: 14px;
   display: flex;
   flex: 1;
   list-style-type: none;

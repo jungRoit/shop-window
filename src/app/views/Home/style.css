@@ -58,16 +58,6 @@
   padding: 20px 0;
 }
 
-.search-categorySelector {
-  padding: 10px 5px;
-  background-color: white;
-}
-
-.search-input {
-  width: 300px;
-  padding: 10px 5px;
-}
-
 /* navbar */
 .header-bottom {
   display: flex;

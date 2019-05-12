@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  flex: 1;
+}
+
+.nav-list {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-list a {
+  padding: 0;
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  border: 1px solid gray;
+  border-radius: 5%;
+}
+
+.nav-item {
+  display: flex;
+  flex: 1;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}

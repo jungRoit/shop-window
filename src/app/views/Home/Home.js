@@ -2,11 +2,14 @@ import React from 'react';
 import './style.css';
 
 import Navbar from '../../components/Navbar';
+import Search from '../../components/Search';
 
 export default class Home extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      categories: ["Men's Wear", "Women's Wear", 'Kids', 'Glasses']
+    };
   }
   render() {
     return (
@@ -33,18 +36,10 @@ export default class Home extends React.Component {
           </div>
         </div>
         <div className='header-search'>
-          <div className='search-box'>
-            <select className='search-categorySelector'>
-              <option>All Category</option>
-              <option>Mens's wear</option>
-              <option>Womens's wear</option>
-            </select>
-            <input
-              type='text'
-              className='search-input'
-              placeholder="Find what you're looking for"
-            />
-          </div>
+          <Search
+            categories={this.state.categories}
+            placeholder={"Find what you're looking for"}
+          />
         </div>
         <div className='header-bottom'>
           <Navbar

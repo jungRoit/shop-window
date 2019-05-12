@@ -1,0 +1,57 @@
+/* layout */
+.header {
+  background-color: #fffee8;
+}
+.header-top {
+  padding: 0 40px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+}
+.header-logo {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.logo {
+  font-size: 24px;
+  color: black;
+}
+
+.logo-subtext {
+  font-size: 14px;
+  color: gray;
+  padding-top: 20px;
+}
+
+.header-login {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* header-search */
+.header-search {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 20px 0;
+}
+
+/* navbar */
+.header-bottom {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  background-color: black;
+}
+
+.details {
+  display: flex;
+  flex: 1;
+}

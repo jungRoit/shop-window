@@ -8,7 +8,9 @@ import Login from '../../components/Login';
 export default class Home extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      categories: ["Men's Wear", "Women's Wear", 'Kids', 'Glasses']
+    };
   }
   render() {
     return (

@@ -55,7 +55,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .search-categorySelector {
@@ -63,10 +63,20 @@
   background-color: white;
 }
 
-.search-box {
-}
-
 .search-input {
   width: 300px;
   padding: 10px 5px;
+}
+
+/* navbar */
+.header-bottom {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  background-color: black;
+}
+
+.details {
+  display: flex;
+  flex: 1;
 }

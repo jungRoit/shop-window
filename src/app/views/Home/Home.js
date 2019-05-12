@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 
+import Navbar from '../../components/Navbar';
+
 export default class Home extends React.Component {
   constructor(props) {
     super(props);
@@ -44,7 +46,18 @@ export default class Home extends React.Component {
             />
           </div>
         </div>
-        <div className='header-bottom' />
+        <div className='header-bottom'>
+          <Navbar
+            navList={[
+              'Top Sellers',
+              "Today's Deal",
+              'Weekly Offers',
+              'New Arrivals',
+              'Help'
+            ]}
+          />
+          <div className='details' />
+        </div>
       </div>
     );
   }

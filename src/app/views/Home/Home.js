@@ -3,6 +3,7 @@ import './style.css';
 
 import Navbar from '../../components/Navbar';
 import Search from '../../components/Search';
+import Login from '../../components/Login';
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -20,24 +21,17 @@ export default class Home extends React.Component {
             <h2 className='logo-subtext'>Your Personalized store</h2>
           </div>
           <div className='header-login'>
-            <div className='login-box'>
-              <input
-                className='login-input'
-                type='text'
-                placeholder='usermane'
-              />
-              <input
-                className='login-input'
-                type='password'
-                placeholder='password'
-              />
-              <button className='login-btn'> LOG IN </button>
-            </div>
+            <Login />
           </div>
         </div>
         <div className='header-search'>
           <Search
-            categories={this.state.categories}
+            categories={[
+              "Men's Wear",
+              "Women's Wear",
+              'Kids',
+              'Glasses'
+            ]}
             placeholder={"Find what you're looking for"}
           />
         </div>
